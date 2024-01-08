@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+}
+
+/* Header styles */
+.top-banner-text p {
+    font-family: Merriweather;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+    padding-bottom: 16px;
+}
+
+.top-banner-text h3 {
+    font-family: Merriweather;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.top-banner {
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+}
+
+/* Main style */
+
+section{
+    margin-top: 120px;
+}
+
+.sale-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.sale-text p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 16px; 
+}
+
+.sale-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.sale-container img{
+    margin: 38px 399px 0px 399px;
+
+    width: 802.9px;
+    height: 500px;
+    
+}
