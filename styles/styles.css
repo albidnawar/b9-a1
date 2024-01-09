@@ -34,7 +34,8 @@
 
 /* Main style */
 
-section{
+/* Sale styles */
+section {
     margin-top: 120px;
 }
 
@@ -53,7 +54,7 @@ section{
     font-size: 24px;
     font-weight: 500;
     margin-top: 48px;
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
 }
 
 .sale-text h3 {
@@ -63,10 +64,66 @@ section{
     font-size: 48px;
     font-weight: 700;
 }
-.sale-container img{
+
+.sale-container img {
     margin: 38px 399px 0px 399px;
 
     width: 802.9px;
     height: 500px;
-    
+
+}
+
+/* Welcome styles */
+.welcome-container {
+    display: flex;
+    gap: 40px;
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+}
+
+.welcome-text h3 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    padding-top: 126px;
+    padding-left: 126px;
+
+}
+
+.welcome-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    padding-top: 24px;
+    padding-left: 126px;
+}
+
+.welcome-text button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    padding-top: 48px;
+    padding-left: 158px;
+}
+.welcome-image{
+    padding-top: 68px;
 }
