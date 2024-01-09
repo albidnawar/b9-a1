@@ -261,29 +261,104 @@ span {
 }
 
 .subscribe-input .email {
-    width: 438px; 
+    width: 438px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     background: #FFF;
     padding: 25px 0px 25px 30px;
     color: rgba(7, 2, 17, 0.30);
-text-align: left;
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-margin-top: 48px;
-border: none;
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 48px;
+    border: none;
+
 }
 
-.subscribe-input .submit{
+.subscribe-input .submit {
     border-radius: 0px 50px 50px 0px;
-background: #F00;
-color: #FFF;
-text-align: center;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 24px 56px;
+    border: none;
+    margin-left: -20px;
+}
+
+/* footer style */
+
+.footer-container {
+    background: #070211;
+    height: 609px;
+}
+
+.footer-text {
+    display: flex;
+}
+
+.footer-text01 {
+    width: 375px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    padding-top: 120px;
+    padding-left: 140px;
+}
+
+.footer-text02 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    padding-top: 120px;
+    padding-left: 599px;
+}
+
+.footer-icon{
+    padding-right: 20px;
+}
+
+hr.new01{
+    margin: auto;
+    margin-top: 50px;
+    width: 1320px;
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-contact{
+    display: flex;
+    gap: 24px;
+    margin-left: 600px;
+    margin-top: 48px;
+}
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 140px;
+}
+
+.footer-last p{
+    color: #FFF;
 font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-text-transform: capitalize;
-padding: 24px 56px;
+font-size: 24px;
+font-weight: 500;
+}
+.footer-last button{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+background: none;
 border: none;
 }
